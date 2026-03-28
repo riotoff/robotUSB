@@ -1,5 +1,5 @@
-robotUSB
-========
+GNU/robotUSB
+============
 BadUSB sketch for Arduino that canNOT be used for malicious purposes.
 NEVER try to use it outside of virtual machines.
 
