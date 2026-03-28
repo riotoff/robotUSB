@@ -1,0 +1,12 @@
+robotUSB
+========
+BadUSB sketch for Arduino that can be used for malicious purposes.
+Never try to use it outside of virtual machines.
+
+wnd.ino - windows version of robotUSB
+lnx.ino - linux version of robotUSB
+mac.ino - macOS version of robotUSB
+hex.ino - hexOS version of robotUSB (github.com/riotoff/hex)
+
+* Donate: UQBVRIcTPoDi5eOVymy4KbPTSu1J9yEP_syfxEM50_C5PLkk (USDT TON)
+* For all questions, contact t.me/sseenyaa
