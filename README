@@ -1,7 +1,7 @@
 robotUSB
 ========
-BadUSB sketch for Arduino that can be used for malicious purposes.
-Never try to use it outside of virtual machines.
+BadUSB sketch for Arduino that canNOT be used for malicious purposes.
+NEVER try to use it outside of virtual machines.
 
 wnd.ino - windows version of robotUSB
 lnx.ino - linux version of robotUSB
