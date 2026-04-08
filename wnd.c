@@ -21,7 +21,7 @@ void setup() {
   Keyboard.println("cmd /c start /min cmd /c \"\"");
   delay(1000);
 
-  Keyboard.println("start /min notepad");
+  Keyboard.println("start notepad");
   delay(1500);
 
   typing("hi from robot.", 60);
