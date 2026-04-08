@@ -18,7 +18,7 @@ void setup() {
   Keyboard.releaseAll();
   delay(500);
   
-  Keyboard.println("cmd /c start /min cmd /c \"\"");
+  Keyboard.println("cmd /k");
   delay(1000);
 
   Keyboard.println("start notepad");
