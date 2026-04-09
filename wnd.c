@@ -24,12 +24,6 @@ void setup() {
   Keyboard.println("start notepad");
   delay(2000);
 
-  Keyboard.press(KEY_LEFT_ALT);
-  Keyboard.press(KEY_TAB);
-  delay(100);
-  Keyboard.releaseAll();
-  delay(500);
-
   typing("hi from robot.", 60);
   delay(500);
   typing("its pretty cozy inside your computer.", 70);
