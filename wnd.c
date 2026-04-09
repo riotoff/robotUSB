@@ -19,14 +19,26 @@ void setup() {
   delay(500);
   
   Keyboard.println("cmd /k");
-  delay(1000);
+  delay(1500);
 
   Keyboard.println("start notepad");
-  delay(1500);
+  delay(2000);
+
+  Keyboard.press(KEY_LEFT_ALT);
+  Keyboard.press(KEY_TAB);
+  delay(100);
+  Keyboard.releaseAll();
+  delay(500);
 
   typing("hi from robot.", 60);
   delay(500);
   typing("its pretty cozy inside your computer.", 70);
+  delay(500);
+  
+  Keyboard.press(KEY_LEFT_ALT);
+  Keyboard.press(KEY_TAB);
+  delay(100);
+  Keyboard.releaseAll();
   delay(500);
   
   // Uncommenting any of those strings can destroy your PC
